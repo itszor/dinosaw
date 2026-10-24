@@ -1,0 +1,91 @@
+{
+ "name": "dinosaw",
+ "title": "DinoSaw (Tom Cooper, 1993; Acorn Arcade's 2006 freeware re-release)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py).",
+ "inputs": {
+  "containers": {
+   "dinosaw.zip": "eac1cef476b91f693dfa2f1aa992bf74e5e10500af5e1b2c9b5125434bc2ce9d"
+  },
+  "formats": [
+   "zip",
+   "directory"
+  ]
+ },
+ "discs": [
+  {
+   "name": "zip",
+   "title": "DinoSaw/: !DinoSaw, !DinoKeys, !MaxMem, Instruct (Acorn Arcade, January 2006)",
+   "known_images": [
+    "eb8dc5690a78981fdb0fb0cd1b05900096960d29aa8fd2f36a456a6e3e03c36c"
+   ],
+   "key_files": {
+    "DinoSaw/Instruct": "746e146df1c06b8c514c3d3ee1efe230d1825a31b9cd6003555d2d5d1fd42248",
+    "DinoSaw/!DinoSaw/!Boot": "e23421b3db403a6ebad6edeb6f82258ad1a44cc0dea09c88e73b8cbb557dc3fe",
+    "DinoSaw/!DinoSaw/!Run": "efaf6ae1b3774dfc52f03040e4f33857fa47f4dcc28677c685f1c3eba5d11a4b",
+    "DinoSaw/!DinoSaw/!Sprites": "1115a4237da419c5fd7a30d1d3c367c137afda24d503b8acf51d2fe5caf8bad8",
+    "DinoSaw/!DinoSaw/SCache": "8a5ed882952b9a74d1dd72948b29c2c7df26b2767dfe3fe69019561bb4f1b5b2",
+    "DinoSaw/!DinoSaw/Code/AdCode": "44b698dc586cb3c3816a7aa48258f4b10b068e895161358686af64c3c53123f4",
+    "DinoSaw/!DinoSaw/Code/BertyCorp": "156a0afc3c542561d6a8414aa125805e0e7794482069685a64c1ceb296acc7ad",
+    "DinoSaw/!DinoSaw/Code/Crunchy": "1861ca729b72c02227f7c3e18b50793307844ce221fec35939eb19c0424bd635",
+    "DinoSaw/!DinoSaw/Code/EndCredits": "0806f8a46c11655eee7de95f696730524e60b6ac7633c9ec1706dd713fef1848",
+    "DinoSaw/!DinoSaw/Code/MCode": "b830ca0025063ae57ea55d7bec4cf1b8617e51145f22502da84c2ddb39ca762c",
+    "DinoSaw/!DinoSaw/Grafix/BertyCorp": "7e17461803354909b5214c58b2fa8f486b3c56d9ef315033d17ad06a560708b8",
+    "DinoSaw/!DinoSaw/Grafix/BkSpriteC1": "14ad90d9e6cd19aa5a1132cdcbf8e74a2f591dc43d6dd6b062a988c47da1fd7a",
+    "DinoSaw/!DinoSaw/Grafix/ChrSet": "ba1b229824bf7b9a71f84021175d6ed68d31d52d26b9762e456fe36620c9dc5e",
+    "DinoSaw/!DinoSaw/Grafix/Consoles": "ef85e4f73a8850f952c3e9d54477d7985e635c52e3f374b0fc157e60c8997feb",
+    "DinoSaw/!DinoSaw/Grafix/Credits": "553a4e256737f85510c26e152a6ecc0ff6a45f7d9e4807b05a27e0a80e3b6c21",
+    "DinoSaw/!DinoSaw/Grafix/EndScreen": "893d89b56bd5858266eb78976d13b1e2bb62065fd68d30923651c769e70d699f",
+    "DinoSaw/!DinoSaw/Grafix/FiveStar": "d3516466e9526bf8174d18f6f8d1bbc8445115862ffb826dfab673e03619ebd0",
+    "DinoSaw/!DinoSaw/Grafix/GmSpritesC": "ae14e69455260602806938a2e25f3e856d226fcc03b7e3a662ab84c8373d9bb2",
+    "DinoSaw/!DinoSaw/Grafix/InfoScr1": "82cf74fedebfdee1cde0ba45092b56a8f9f01541c498068159f6a635565bcc6e",
+    "DinoSaw/!DinoSaw/Grafix/InfoScr2": "a9d56052d5ba56072f588d844f7326593dbe3b7cca303b4f1cee63db435730e9",
+    "DinoSaw/!DinoSaw/Grafix/InfoScr3": "82cf74fedebfdee1cde0ba45092b56a8f9f01541c498068159f6a635565bcc6e",
+    "DinoSaw/!DinoSaw/Grafix/InfoScr4": "a5ff20b77826533f53ecf9074e8f9e8f1debfa000b3fe7021b59066044e33e70",
+    "DinoSaw/!DinoSaw/Grafix/Loading": "60d317384d74ca7a5a4e1a3303272cb889eb1ac712c5b7c2d140161930865ae9",
+    "DinoSaw/!DinoSaw/Grafix/TitlePage": "400ab26eafeba3bf0614245c0d363dac04473f6edd80bacf2ddcc45e8c224004",
+    "DinoSaw/!DinoSaw/Level0/LevelAB": "dcd6c8bc51f66a016bf50d952b28d2b43483375d8ad00b8a9645dd97c7309872",
+    "DinoSaw/!DinoSaw/Level0/LevelAC": "35e7562b5de8ea7d4c4ff918e1f82ca498ff8650cf878fdeea61af05181a2160",
+    "DinoSaw/!DinoSaw/Level0/LevelAD": "22e20a65d2ad9b425e3a43c71f3dedf28c8696b8f57a8f2b34dc6797605a105a",
+    "DinoSaw/!DinoSaw/Level0/LevelAE": "9246d7f88d0af2103897b71c4a65f0a3db59a3f236eb0e85180dc9aff59d73f4",
+    "DinoSaw/!DinoSaw/Level0/LevelAF": "187cd668a213d3b2174341b7492a50d4ba8926b2264dfd054c83da397a5ab09a",
+    "DinoSaw/!DinoSaw/Level0/LevelAG": "ec539243993a608bff61e1efea9d3d10fcd55c4dc5bceb7de68b9a808dd4bc15",
+    "DinoSaw/!DinoSaw/Level0/LevelAH": "eb01d6af69bb27e1cd85573d8b6115dbc14cee070bc508d006eafbbecebcdf73",
+    "DinoSaw/!DinoSaw/Level0/LevelAI": "131564548d652eb1ecbc56976aea3a72480a9dfef4952918a3efd7be048c6858",
+    "DinoSaw/!DinoSaw/Level0/LevelAJ": "4935dd3c14d2f4c7ea4bb188c30340432d896f25c6f0c3dd0e6cfe1e796e12be",
+    "DinoSaw/!DinoSaw/Level0/LevelAK": "0b03927df3f4c58de28d6ab7c121719bfbb27ae61aefb8fc50a7896fa579d61e",
+    "DinoSaw/!DinoSaw/Level0/LevelAL": "b50f799c4810f3a8c07a9a86c7e4c84e6d4c755756df4b99d9d83f258d1b8ed4",
+    "DinoSaw/!DinoSaw/Level0/LevelAM": "fdff24c11493c95f37b5010c499e887517b18220126476a16ad653da0024ea84",
+    "DinoSaw/!DinoSaw/Level0/LevelAN": "fdff24c11493c95f37b5010c499e887517b18220126476a16ad653da0024ea84",
+    "DinoSaw/!DinoSaw/Level0/LevelAO": "fdff24c11493c95f37b5010c499e887517b18220126476a16ad653da0024ea84",
+    "DinoSaw/!DinoSaw/Level0/LevelAP": "fdff24c11493c95f37b5010c499e887517b18220126476a16ad653da0024ea84",
+    "DinoSaw/!DinoSaw/MiscData/AllTimeHi": "85246cc9df74e14f66130dabad9b099b98540e7b93e5bd90644e8fdd8137edc7",
+    "DinoSaw/!DinoSaw/MiscData/FadeSet": "f6cd8dcdb536b66d6e994c7cc6a420211ae1d20b2bef39ecf3227e2b7ab89340",
+    "DinoSaw/!DinoSaw/MiscData/Keys": "0fa1bca88fa1b65bae39eb83be3da66ad92feb4410ff55749b6482ce2f1f2416",
+    "DinoSaw/!DinoSaw/Music/PlayerMod": "da9ca409fc30b39709825ec8b6d14ef801b5823797864fb29eb2a89086b26757",
+    "DinoSaw/!DinoSaw/Music/Tracker2": "c63e8051a4ff231b191187e73bb522c298c9870af58597a7e115d92491799bc9",
+    "DinoSaw/!DinoSaw/Music/Tracker4": "504fffdb048c11df71907f50d4f3f63ee16bf013003c34c89300481ebe7188ad"
+   },
+   "game_dirs": [
+    "DinoSaw/!DinoSaw"
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/dinosaw",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./dinosaw"
+}
